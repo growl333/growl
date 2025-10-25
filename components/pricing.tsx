@@ -111,7 +111,7 @@ export function Pricing() {
                       : "bg-white/10 text-white hover:bg-white/20 border border-white/20"
                   }`}
                 >
-                  <Link href="https://wa.link/65mf3i" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://wa.me/201024252649" target="_blank" rel="noopener noreferrer">
                     {t.contactNow}
                   </Link>
                 </Button>
@@ -143,8 +143,13 @@ export function Pricing() {
           <p>{t.pricingNote3}</p>
         </div>
         <div className="text-sm text-gray-400">
-          <p className="font-semibold text-white mb-1">Pricing</p>
-          <p>{t.pricingNote4}</p>
+          <p className="font-semibold text-white mb-1">Contact</p>
+          <p>
+            WhatsApp:&nbsp;
+            <a href="https://wa.me/201024252649" target="_blank" rel="noopener noreferrer" className="text-lime-300 hover:text-white">
+              +20 102 425 2649
+            </a>
+          </p>
         </div>
       </div>
     </section>

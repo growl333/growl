@@ -52,7 +52,7 @@ export function Hero() {
             asChild
             className="rounded-full bg-purple-500 hover:bg-purple-400 text-white font-semibold px-8 py-5 text-sm tracking-wide transition-all"
           >
-            <a href="https://wa.link/65mf3i" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/201024252649" target="_blank" rel="noopener noreferrer">
               {t.chatWithUs ?? (isRTL ? "تواصل معنا" : "Chat with Us")}
             </a>
           </Button>
